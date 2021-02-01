@@ -1,0 +1,30 @@
+.container {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(14, 80, 165);
+    text-align: center;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+
+.navbar ul li {
+    border-right: 1px solid black;
+}
+
+.navbar ul li:hover {
+    transition: 1s;
+    background-color: red;
+    width: 20vh;
+    height: 60px;
+}
